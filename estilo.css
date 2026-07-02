@@ -1,0 +1,59 @@
+@font-face {
+  font-family: 'nter';
+  src: url('instruções/Inter.ttf') format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+body{
+    font-family: 'inter', sans-serif;
+    margin-left: 300px;
+    margin-right: 300px;
+    background-color: #FFFFFF;
+    margin-top: 0px;
+}
+.principal{
+    background-color: #ECEEF1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#avatar{
+    height: 100px;
+    width: auto;
+    border-radius: 50px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+.site{
+    background-color: #FFFFFF;
+}
+.site1{
+    background-color: #FFFFFF;
+}
+.site2{
+    background-color: #FFFFFF;
+}
+.footer{
+    background-color: #D9D9D9;
+    display: flex;
+    margin-bottom: 0px;;
+}
+.qr{
+    display: flex;
+    justify-content: flex-start;
+    height: 200px;
+    width: auto;
+
+}
+.termos{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: flex-end;
+    
+}
+.footer1{
+    margin-left: 20px;
+}
